@@ -4,6 +4,6 @@ from controllers.analyzeController import analyze_text
 # create blueprint
 analyze_bp = Blueprint('analyze', __name__)
 
-@analyze_bp.route("/analyze", methods=["GET"])
+@analyze_bp.route('/analyze', methods=['POST'])
 def analyze():
     return analyze_text() 

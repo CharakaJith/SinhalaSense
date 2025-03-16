@@ -7,3 +7,9 @@ class http_status:
     NOT_FOUND = 404
     CONFLICT = 409
     INTERNAL_SERVER_ERROR = 500
+
+class app_envs:
+    DEV = 'development'
+    PROD = 'production'
+    STAGE = 'staging'
+    QA = 'qa'

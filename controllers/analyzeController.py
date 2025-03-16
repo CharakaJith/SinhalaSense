@@ -7,7 +7,7 @@ def analyze_text():
             'success': True,
             'httpStatus': http_status.OK,
             'data': {
-                'message': 'OK pako'
+                'message': 'OK'
             }
         })
     except Exception as error:
